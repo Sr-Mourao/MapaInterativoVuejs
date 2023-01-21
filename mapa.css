@@ -1,0 +1,84 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.body {
+    background-color: #697B73;
+}
+
+.felipe{
+    text-align: end;
+}
+
+/* MAPA */
+.box-mapa {
+    position: relative;
+    z-index: 1;
+    float: center;
+    padding: 20px 0 0 15px;
+
+}
+
+#map {
+    transform: scale(1.2);
+    transform: scale(1);
+    display: table !important;
+    margin: 50px auto;
+    float: center;
+    filter: drop-shadow(0 0 10px black);
+
+}
+
+#map .state {
+    cursor: pointer;
+}
+
+#map .state .shape {
+    cursor: pointer;
+}
+
+#map .state .label_icon_state {
+    fill: #fff;
+    font-family: Arial;
+    font-size: 11px;
+    line-height: 12px;
+    font-weight: normal;
+}
+
+#map .state .label_state {
+    display: none;
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#map .model .state:hover .label_state {
+    display: inline;
+    fill: #FFF !important;
+}
+
+#map .model .state .shape {
+    fill: #ddd;
+}
+
+#map .model .state:hover .shape {
+    fill: #039be5 !important;
+}
+
+#map .model .state .icon_state {
+    fill: #284779;
+}
+
+#map .model .state .icon_state+.label_icon_state {
+    fill: #FFF;
+}
+
+#map .model .state .label_icon_state {
+    fill: #666;
+}
+
+@media(max-width: 500px) {
+    #listCartorio{
+        margin-left: 100px;
+    }
+}
