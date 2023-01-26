@@ -78,7 +78,7 @@ html {
 }
 
 @media(max-width: 500px) {
-    #listCartorio{
+    #listCity{
         margin-left: 100px;
     }
 }
